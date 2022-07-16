@@ -1,0 +1,7 @@
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url('https://demo.gridgum.com/templates/Travel-agency/images/slider.jpg') center;
+    background-size: cover;
+    position: relative;
+  }
