@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Parallax from '../components/Parallax'
 
 import Hero from '../pages/Hero'
 import About from './About'
-import Package from './Package'
+
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
        <Navbar/>
        <Hero/>
        <About/>
-       <Package/>
+       <Parallax/>
         
     
     
