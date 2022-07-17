@@ -4,6 +4,7 @@ import Parallax from '../components/Parallax'
 
 import Hero from '../pages/Hero'
 import About from './About'
+import Partners from './Partners'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
        <Hero/>
        <About/>
        <Parallax/>
+       <Partners/>
         
     
     
