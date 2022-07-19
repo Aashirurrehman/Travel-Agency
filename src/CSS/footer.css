@@ -185,18 +185,17 @@
 
 .footer-2 {
   background: #00a99d;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  padding-top:30px;
+  padding-bottom: 30px;
   color: #fff;
   font-size: 13px;
+  
 }
 .footer-2 a {
   color: #fff;
   text-decoration: none;
 }
-.footer-2 a:hover {
-  text-decoration: underline;
-}
-.footer-2 span {
-  padding: 0 5px;
+
+.my-design{
+    text-align: center;
 }
