@@ -9,7 +9,7 @@ const Partners = () => {
     <div  id='partners' className='partners position-relative'>
         <div className='container'>
             <div className='row'>
-                <div className='col-sm-4 col-md-2 col-xs-6 '>
+                <div className='col-sm-4 col-md-2 col-6 '>
                     <div className='pic-wrap'>
                         <div className='inner-container thumbnail clearfix'>
                             <a href='#'className='position-relative '>
@@ -24,7 +24,7 @@ const Partners = () => {
                    
 
                 </div>
-                <div className='col-sm-4 col-md-2 col-xs-6 '>
+                <div className='col-sm-4 col-md-2 col-6 '>
                 <div className='pic-wrap'>
                         <div className='inner-container thumbnail clearfix'>
                             <a href='#'className='position-relative '>
@@ -38,7 +38,7 @@ const Partners = () => {
                     </div>
 
                 </div>
-                <div className='col-sm-4 col-md-2 col-xs-6 '>
+                <div className='col-sm-4 col-md-2 col-6 '>
                 <div className='pic-wrap'>
                         <div className='inner-container thumbnail clearfix'>
                             <a href='#'className='position-relative '>
@@ -52,7 +52,7 @@ const Partners = () => {
                     </div>
 
                 </div>
-                <div className='col-sm-4 col-md-2 col-xs-6 '>
+                <div className='col-sm-4 col-md-2 col-6 '>
                 <div className='pic-wrap'>
                         <div className='inner-container thumbnail clearfix'>
                             <a href='#'className='position-relative '>
@@ -66,7 +66,7 @@ const Partners = () => {
                     </div>
 
                 </div>
-                <div className='col-sm-4 col-md-2 col-xs-6 '>
+                <div className='col-sm-4 col-md-2 col-6 '>
                 <div className='pic-wrap'>
                         <div className='inner-container thumbnail clearfix'>
                             <a href='#'className='position-relative '>
@@ -80,7 +80,7 @@ const Partners = () => {
                     </div>
 
                 </div>
-                <div className='col-sm-4 col-md-2 col-xs-6 '>
+                <div className='col-sm-4 col-md-2 col-6 '>
                 <div className='pic-wrap'>
                         <div className='inner-container thumbnail clearfix'>
                             <a href='#'className='position-relative '>

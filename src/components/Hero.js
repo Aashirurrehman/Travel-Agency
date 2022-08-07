@@ -1,6 +1,7 @@
 import React from 'react'
 import bgImg from '../images/slider.jpg'
 import '../CSS/hero.css'
+import FrontTab from '../components/FrontTab'
 
 const Hero = () => {
   return (
@@ -8,7 +9,7 @@ const Hero = () => {
          <section id="hero">
             <div class="hero-container">
                 
-                
+                <FrontTab/>
             </div>
         </section>
 

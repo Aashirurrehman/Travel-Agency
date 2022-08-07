@@ -1,6 +1,6 @@
 .btn {
   display: block;
-  color: #fff;
+  color: #fff !important;
   border: none;
   font-size: 14px;
   line-height: 20px;
@@ -8,7 +8,7 @@
   padding: 15px 10px;
   text-decoration: none;
   text-transform: uppercase;
-  background: #fb000d;
+  background: red !important;
   position: relative;
   text-align: center;
   width: 100%;
@@ -18,8 +18,8 @@
 }
 
 .btn:hover {
-  color: #fff;
-  background: #00a99d;
+  color: #fff !important;
+  background: #00a99d !important;
 }
 
 .parallax-section{

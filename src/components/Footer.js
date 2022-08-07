@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-sm-3">
+          <div className="col-md-3 ">
             <div class="logo-wrapper">
               <a href="#">
-                <img src={require("../images/logo2.png")} alt="logo2" />
+                <img src={require("../images/logo2.png")} alt="logo2" className="img-responsive footer-image" />
               </a>
             </div>
             <p>
@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
           
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-3 ">
             <div className="footer-title">Travel Specialists</div>
             <ul className="footer-ul">
               <li><a href="#">First Class Flights <i className='fa fa-caret-right'></i></a></li>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
 
 
-          <div className="col-sm-3">
+          <div className=" col-md-3 ">
             <div className="footer-title"> Our Twitter </div>
               <div className="twits-wrapper">
                 <div className="twit">
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
 
 
-          <div className="col-sm-3">
+          <div className="col-md-3 ">
             <div className="footer-title">Newsletter</div>
               <div className="newsltter-block">
                 <div className="text1">Inspiration, ideas, news and your feedback.</div>

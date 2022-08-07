@@ -1,0 +1,100 @@
+#happy {
+  padding-top: 50px;
+  background: url("../images/happy1.jpg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.image-bg{
+  margin-top: 120px;
+  justify-content: center;
+
+}
+
+@media (min-width: 990px) and (max-width: 1400px) {
+  #happy .image-bg{
+    margin-top: 220px;
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    justify-content: center;
+    
+  }
+  
+}
+
+@media (min-width:320px) and (max-width: 767px){
+  .image-bg{
+    margin-top: 10px;
+    width: 100% !important;
+    height: auto;
+    margin-right: 10px;
+    justify-content: center;
+    
+  }
+  
+}
+
+
+.img-responsive{
+  width: auto;
+}
+
+
+.content {
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.content .text-01 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.content .text-02 {
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.content .text-03 {
+  padding-bottom: 20px;
+}
+
+.distance {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.distance .txt {
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.distance .bg {
+  height: 13px;
+  background: #f8f8f8;
+}
+
+.animated-distance {
+  background: #1cbbb4;
+  width: 0;
+  height: 100%;
+}
+
+.animated-distance span {
+  float: right;
+}
+
+
+@media (min-width:320px) and (max-width: 990px){
+  .column_down{
+    order: 2;
+  }
+
+  .column_up{
+    order: 1;
+  }
+  
+  
+}

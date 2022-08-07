@@ -1,28 +1,40 @@
 import React from 'react'
-import Footer from '../components/Footer'
+import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import Services from '../components/Services'
 import Parallax from '../components/Parallax'
+import Popular from '../components/Popular'
+import Happy from "../components/Happy";
+import Partners from '../components/Partners';
+import Footer from '../components/Footer'
 import Footer2 from '../components/Footer2'
-
-import Hero from '../pages/Hero'
-import About from './About'
-import Partners from './Partners'
 
 
 const Home = () => {
   return (
-    <div>
-       <Navbar/>
+    <>
+       
        <Hero/>
-       <About/>
+       <Services/>
        <Parallax/>
+       <Popular/>
+       <Happy/>
        <Partners/>
-       <Footer/>
-       <Footer2/>
+       
+       
+       
+      
+       
         
     
     
-    </div>
+    
+    
+    </>
+      
+    
+    
+    
 
   )
 }

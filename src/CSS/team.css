@@ -1,0 +1,55 @@
+
+  .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    
+    background: #fff;
+    
+  }
+  .member .figure {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  @media (max-width:991px) {
+    .member .member-img{
+        width: 100% !important;
+    }
+    
+  }
+
+  .row{
+    padding-top: 20px;
+  }
+  .member .designation {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    background: rgba(28, 187, 180, 0.8);
+    display: flex;
+    padding: 10px; 
+    width: 100%; 
+    color: #fff; 
+    font-size: 15px; 
+    font-weight: 700;
+  }
+  
+  .member .member-info {
+    padding-top:20px;
+  }
+
+  
+  .member:hover .member-name{
+    color: #1cbbb4;
+  }
+  .member:hover .designation {
+    opacity: 1;
+  }
+
+  .member-name{font-size: 21px; font-weight: 500; color: #464646; padding-bottom: 10px;
+    transition: all 0.3s ease-out;}

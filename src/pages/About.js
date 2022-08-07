@@ -1,65 +1,172 @@
-import React from 'react'
-import '../CSS/about.css'
-import why1 from '../images/why1.png'
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import "../CSS/about.css";
+import Services from "./Services";
+import plane from "../images/company1.png";
+import Team from "../components/Team";
 
 const About = () => {
   return (
-    <section id="services" className="services">
-      <div className="container">
-
-        <div className="section-title text-center">
-        
-          <h1 className='heading'>WHY WE ARE THE BEST</h1>
-          
-          <p className='heading-para'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br/>
-tincidunt ut laoreet dolore magna aliquam erat volutpat.
-</p>
+    <>
+      <div className="about-page">
+        <div className="about-banner"></div>
+        <div className="about-breadCrumb">
+          <div className="container">
+            <div className="about-breadCrumb1 mt-0">
+              <NavLink to={"/"}>Home</NavLink>
+              <span>/</span>About
+            </div>
+          </div>
         </div>
 
-        <div className="row">
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch">
-            <div className="icon-box">
-              
-            <div className="icon"><i className="fa fa-plane-departure"></i></div>
-               
-              <h4 className="title"><a href="">Amazing Travel</a></h4>
-              <p className="description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-              <div className='readMore'><a href='#' >Read More <i className='fa fa-caret-right'></i></a></div>
+        <Services />
+
+        <div id="offers" className="position-relative">
+          <div className="container">
+            <div className="section-title text-center">
+              <h1 className="heading">What We Offer</h1>
+              <p className="offer-para text-center">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod <br /> tincidunt ut laoreet dolore
+                magna aliquam erat volutpat.
+              </p>
+            </div>
+
+            <div className="row">
+              <div className="col-sm-6">
+                <ul className="offer-list">
+                  <li>
+                    <Link to={"#"}>
+                      Nam liber tempor cum soluta nobis eleifend option congue
+                      nihil imperdiet;
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"#"}>
+                      Option congue nihil imperdiet doming id quod mazim
+                      placerat facer;
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"#"}>
+                      Eodem modo typi, qui nunc nobis videntur parum clari,
+                      fiant sollemnes;
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"#"}>
+                      Investigationes demonstraverunt lectores
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="col-sm-6 ">
+                <p className="para-line mb-0">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                  nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                  aliquip ex ea commodo consequat. Eodem modo typi, qui nunc
+                  nobis videntur parum clari, fiant sollemnes in futurum. Ut
+                  wisi enim ad minim veniam, quis nostrud exerci tation
+                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                  consequat.
+                </p>
+              </div>
             </div>
           </div>
-
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch" >
-            <div className="icon-box">
-              <div className="icon"><i className="fa fa-file"></i></div>
-              <h4 className="title"><a href="">Discovery</a></h4>
-              <p className="description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-              <div className='readMore'><a href='#' >Read More <i className='fa fa-caret-right'></i></a></div>
-            </div>
-          </div>
-
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch" >
-            <div className="icon-box">
-              <div className="icon"><i className="fas fa-flag"></i></div>
-              <h4 className="title"><a href="">Book Your Trip</a></h4>
-              <p className="description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-              <div className='readMore'><a href='#' >Read More <i className='fa fa-caret-right'></i></a></div>
-            </div>
-          </div>
-
-          <div className="col-md-6 col-lg-3 d-flex align-items-stretch ">
-            <div className="icon-box">
-              <div className="icon"><i className="fas fa-comments"></i></div>
-              <h4 className="title"><a href="">Nice Support</a></h4>
-              <p className="description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-              <div className='readMore'><a href='#' >Read More <i className='fa fa-caret-right'></i></a></div>
-            </div>
-          </div>
-
         </div>
 
+        <div id="company" className="position-relative">
+          <div className="container">
+            <div className="section-title text-center">
+              <h1 className="heading">About Our Company</h1>
+              <p className="offer-para text-center">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod <br /> tincidunt ut laoreet dolore
+                magna aliquam erat volutpat.
+              </p>
+            </div>
+
+            <div className="row">
+              <div className="col-sm-12 col-lg-6 column_down">
+                <img
+                  src={plane}
+                  className="plane-bg mt-0 img-responsive"
+                  alt="plane"
+                />
+              </div>
+
+              <div className="col-sm-12 col-lg-6 column_up ">
+                <div className="content mt-0">
+                  <div className="content-title">Travel Agency</div>
+                  <div className="text-03">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euisod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                      quis nostrud exerci tation ullamcorper suscipit.
+                    </p>
+                  </div>
+
+                  <div className="distance">
+                    <div className="txt">Flights</div>
+                    <div className="bg">
+                      <div
+                        className="animated-distance"
+                        style={{ width: "94%", background: "#00a99d" }}
+                      >
+                        <span>94%</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="distance">
+                    <div className="txt">Hotels</div>
+                    <div className="bg">
+                      <div
+                        className="animated-distance"
+                        style={{ width: "87%", background: "#00a99d" }}
+                      >
+                        <span>87%</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="distance">
+                    <div className="txt">Cars</div>
+                    <div className="bg">
+                      <div
+                        className="animated-distance"
+                        style={{ width: "48%", background: "#00a99d" }}
+                      >
+                        <span>48%</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="distance">
+                    <div className="txt">Cruises</div>
+                    <div className="bg">
+                      <div
+                        className="animated-distance"
+                        style={{ width: "55%", background: "#00a99d" }}
+                      >
+                        <span>55%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <Team/>
       </div>
-    </section>
-  )
-}
+    </>
+  );
+};
 
-export default About
+export default About;

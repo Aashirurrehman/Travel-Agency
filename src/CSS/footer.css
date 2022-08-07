@@ -58,7 +58,7 @@
 .footer-social li {
   display: inline-block;
   margin: 0 4px 4px 0;
-  float: left;
+  
 }
 
 .footer-social li a {
@@ -199,3 +199,18 @@
 .my-design{
     text-align: center;
 }
+
+@media (min-width: 760px) and (max-width: 990px) {
+  .footer-image{
+    width: 150px !important;
+    height: auto !important;
+
+  }
+  .logo-wrapper{
+    padding-top: 20px;
+  }
+  
+}
+
+
+.img-responsive{width: auto;}

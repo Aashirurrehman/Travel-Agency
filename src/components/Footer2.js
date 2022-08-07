@@ -7,7 +7,7 @@ const Footer2 = () => {
       <div className="container ">
         <div className="my-design">
         Copyright © 2022 {""} | {""} Designed by {""}
-          <a href="#" target="_blank">
+          <a href="https://www.upwork.com/freelancers/~01c94373ccee88e0dc" target="_blank">
             <strong>AASHIR</strong>
           </a>
 
