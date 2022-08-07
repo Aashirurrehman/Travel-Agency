@@ -1,0 +1,26 @@
+.social_about{
+    list-style: none;
+    
+
+}
+
+.social_about li{
+    display: inline;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.social_about li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color:  #ebebeb;
+    text-align: center;
+    line-height: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.social_about li a:hover {
+    color: #1cbbb4;
+}
+

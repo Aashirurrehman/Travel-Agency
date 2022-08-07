@@ -3,8 +3,8 @@ import '../CSS/social.css'
 
 const Social = () => {
   return (
-    <div class="social_sm_wrapper">
-      <ul class="social_sm clearfix">
+    <div class="social_about_wrapper">
+      <ul class="social_about clearfix p-0 m-0 display-block;">
         <li>
           <a href="#">
             <i class="fa fa-facebook-square"></i>
