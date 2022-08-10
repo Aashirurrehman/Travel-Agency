@@ -1,0 +1,11 @@
+.parallax2-section{
+  background-image: url('../images/parallax2.jpg');
+  background-repeat: no repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#parallax2 {
+  padding-top: 290px;
+  
+}
