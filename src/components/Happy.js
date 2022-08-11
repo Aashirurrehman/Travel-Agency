@@ -45,8 +45,9 @@ const Happy = () => {
                     className="animated-distance"
                     style={{ width: "94%", background: "#00a99d" }}
                   >
-                    <span>94%</span>
+                    
                   </div>
+                  <div className="percentage1">94%</div>
                 </div>
               </div>
 
@@ -57,8 +58,9 @@ const Happy = () => {
                     className="animated-distance"
                     style={{ width: "87%", background: "#00a99d" }}
                   >
-                    <span>87%</span>
+                    
                   </div>
+                  <div className="percentage1">87%</div>
                 </div>
               </div>
 
@@ -69,8 +71,9 @@ const Happy = () => {
                     className="animated-distance"
                     style={{ width: "48%", background: "#00a99d" }}
                   >
-                    <span>48%</span>
+                    
                   </div>
+                  <div className="percentage1">48%</div>
                 </div>
               </div>
 
@@ -81,8 +84,9 @@ const Happy = () => {
                     className="animated-distance"
                     style={{ width: "55%", background: "#00a99d" }}
                   >
-                    <span>55%</span>
+                    
                   </div>
+                  <div className="percentage1">55%</div>
                 </div>
               </div>
             </div>

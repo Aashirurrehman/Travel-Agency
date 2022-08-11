@@ -117,8 +117,9 @@ const About = () => {
                         className="animated-distance"
                         style={{ width: "94%", background: "#00a99d" }}
                       >
-                        <span>94%</span>
+                        
                       </div>
+                      <div className="percentage">94%</div>
                     </div>
                   </div>
 
@@ -129,8 +130,9 @@ const About = () => {
                         className="animated-distance"
                         style={{ width: "87%", background: "#00a99d" }}
                       >
-                        <span>87%</span>
+                        
                       </div>
+                      <div className="percentage">87%</div>
                     </div>
                   </div>
 
@@ -141,8 +143,9 @@ const About = () => {
                         className="animated-distance"
                         style={{ width: "48%", background: "#00a99d" }}
                       >
-                        <span>48%</span>
+                        
                       </div>
+                      <div className="percentage">48%</div>
                     </div>
                   </div>
 
@@ -153,8 +156,9 @@ const About = () => {
                         className="animated-distance"
                         style={{ width: "55%", background: "#00a99d" }}
                       >
-                        <span>55%</span>
+                      
                       </div>
+                      <div className="percentage">55%</div>
                     </div>
                   </div>
                 </div>

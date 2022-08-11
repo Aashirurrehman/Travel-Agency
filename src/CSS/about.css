@@ -230,3 +230,29 @@
   }
 }
 
+
+.percentage{
+  background: white;
+  color: #00a99d;
+  float: right;
+  margin-left: 50px;
+  font-weight: bold;
+  
+  margin-bottom: 70px ;
+  
+  
+ 
+}
+
+.percentage-three{
+
+  background: white;
+  color: #00a99d;
+  float: right;
+  margin-left: 30px;
+  font-weight: bold;
+  
+  margin-bottom: 70px ;
+  
+
+}

@@ -69,6 +69,8 @@
 .distance .txt {
   font-weight: 600;
   padding-bottom: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 .distance .bg {
@@ -95,6 +97,19 @@
   .column_up{
     order: 1;
   }
+  
+  
+}
+
+
+.percentage1{
+  
+  color: white;
+  float: right;
+  margin-left: 50px;
+  font-weight: bold;
+  
+ 
   
   
 }
