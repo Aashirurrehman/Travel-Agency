@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+
 const Flights = () => {
   return (
     <>
@@ -13,11 +14,38 @@ const Flights = () => {
           ></iframe>
         </div>
       </div>
+
       <div className="about-breadCrumb">
         <div className="container">
           <div className="about-breadCrumb1 mt-0">
             <NavLink to={"/"}>Home</NavLink>
             <span>/</span>Flights
+          </div>
+        </div>
+      </div>
+
+      <div className="flight-wrapper">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-3">
+              <form class="form2 form2_flights">
+                <div class="select1_wrapper clearfix">
+                  <label>Passenger:</label>
+                  <div class="select1_inner">
+                    <select class="select2 select select3" style="width: 100%">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                    </select>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
