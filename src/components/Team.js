@@ -21,14 +21,14 @@ const Team = () => {
             </p>
           </div>
 
-          <div class="row">
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="figure">
-                  <img src={team1} class="member-img" />
-                  <div class="designation">Marketing Manager</div>
+          <div className="row">
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member">
+                <div className="figure">
+                  <img src={team1} className="member-img" />
+                  <div className="designation">Marketing Manager</div>
                 </div>
-                <div class="member-info">
+                <div className="member-info">
                   <div className="member-name">Jynda Martin</div>
                   <div className="job-description">
                     Nam liber tempor cum soluta nobis eleifend option congue
@@ -40,13 +40,13 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="figure">
-                  <img src={team2} class="member-img" />
-                  <div class="designation">Site Administrator</div>
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member">
+                <div className="figure">
+                  <img src={team2} className="member-img" />
+                  <div className="designation">Site Administrator</div>
                 </div>
-                <div class="member-info">
+                <div className="member-info">
                   <div className="member-name">George Smith</div>
                   <div className="job-description">
                     Nam liber tempor cum soluta nobis eleifend option congue
@@ -58,13 +58,13 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="figure">
-                  <img src={team3} class="member-img" />
-                  <div class="designation">Tour Operator</div>
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member">
+                <div className="figure">
+                  <img src={team3} className="member-img" />
+                  <div className="designation">Tour Operator</div>
                 </div>
-                <div class="member-info">
+                <div className="member-info">
                   <div className="member-name">Bill Amadeus</div>
                   <div className="job-description">
                     Nam liber tempor cum soluta nobis eleifend option congue
@@ -76,13 +76,13 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-              <div class="member">
-                <div class="figure">
-                  <img src={team4} class="member-img" />
-                  <div class="designation">Director</div>
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member">
+                <div className="figure">
+                  <img src={team4} className="member-img" />
+                  <div className="designation">Director</div>
                 </div>
-                <div class="member-info">
+                <div className="member-info">
                   <div className="member-name">Amanda Stoun</div>
                   <div className="job-description">
                     Nam liber tempor cum soluta nobis eleifend option congue

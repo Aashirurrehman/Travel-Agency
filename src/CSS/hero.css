@@ -1,7 +1,38 @@
 #hero {
-    width: 100%;
-    height: 100vh;
-    background: url('https://demo.gridgum.com/templates/Travel-agency/images/slider.jpg') center;
-    background-size: cover;
-    position: relative;
-  }
+  width: 100%;
+  height: 100vh;
+  background: url("https://demo.gridgum.com/templates/Travel-agency/images/slider.jpg")
+    center;
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-item .txt1 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: white;
+}
+.carousel-item .txt2 {
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 5px;
+  color: white;
+}
+.carousel-item .txt3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+
+.carousel-item span {
+  background: #00a99d;
+  background: rgba(0, 169, 157, 0.56);
+  padding: 5px 15px;
+  display: inline-block;
+}
+
+#carouselExampleSlidesOnly{
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
